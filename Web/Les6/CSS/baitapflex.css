@@ -1,0 +1,32 @@
+.cha_1{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.left{
+    justify-content: flex-start;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.cha_2{
+    background-color: rgb(213, 168, 201);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+*{
+    text-decoration: none;
+    color: black;
+}
+.center a{
+    margin-right: 10px;
+}
+.right2 a{
+    margin-right: 10px;
+}

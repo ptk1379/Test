@@ -1,0 +1,6 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Nếu các bạn dùng font chữ khác thì gắn thuộc tính font family ở dưới */
+}

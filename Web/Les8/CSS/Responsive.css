@@ -1,0 +1,46 @@
+.pc{
+    background-color: lightblue;
+    font-size: 50px;
+    height: 100vh;
+}
+
+.mobile{
+    background-color: lightgray;
+    font-size: 50px;
+    height: 100vh;
+    display: none;
+}
+
+.tablet{
+    background-color: lightgreen;
+    font-size: 50px;
+    height: 100vh;
+    display: none;
+}
+
+@media only print{
+    .pc{
+        color: red;
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1024px){
+    .tablet{
+        display:block
+    }
+    .pc{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 739px){
+    .mobile{
+        display: block
+    }
+    .pc{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}

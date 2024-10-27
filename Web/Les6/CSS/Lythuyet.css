@@ -1,0 +1,25 @@
+.flex-container{
+    background-color: lightblue;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    /* Flex direction: chỉnh hướng */
+    flex-direction: row;
+    /* Justify-content: chinh trc ngang */
+    justify-content: flex-end;
+    /* Alighn-item: chinh truc doc */
+    align-items: flex-start;
+    /* Flex-wrap */
+    flex-wrap: wrap-reverse;
+}
+.item1,
+.item2,
+.item3{
+    background-color: silver;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+

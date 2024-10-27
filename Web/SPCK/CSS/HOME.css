@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: url(../image/bg.jpg);
+    background-size: cover; */
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    background-color:#6ed8c5;
+    width: 100%;
+    z-index: 9999;
+    top:0;
+}
+
+.menu{
+    background-color: rgba(128, 128, 128, 0.599);
+    backdrop-filter: blur(0px); 
+    position: relative;
+    height: 70px;
+}
+
+.menu .mainmenu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menuitem{
+    margin-top: 15px;
+}
+.dulich{
+    position: absolute;
+    background-color: rgba(187, 176, 176, 0.599);
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 200px;
+    display: none;
+}
+
+/* .dulich li{
+    font-weight: bold;
+} */
+
+.dulich a{
+    border-bottom: 2px solid #434343;
+}
+
+.dulichqt li:hover a{
+    background-color: #969090;
+}
+
+.dulichtn li:hover a{
+    background-color: #969090;
+}
+
+.dichvu{
+    position: absolute;
+    background-color: rgba(187, 176, 176, 0.599);
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 200px;
+    display: none;
+}
+
+.dichvu a{
+    border-bottom: 2px solid #434343;
+}
+
+.dichvu li:hover a{
+    background-color: #969090;
+}
+
+.tintuc{
+    position: absolute;
+    background-color: rgba(187, 176, 176, 0.599);
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 200px;
+    display: none;
+}
+
+.tintuc a{
+    border-bottom: 2px solid #434343;
+}
+
+.tintuc li:hover a{
+    background-color: #969090;
+}
+
+.mainmenu li:hover .dulich
+{
+    display: block;
+}
+
+.mainmenu li:hover .dichvu
+{
+    display: block;
+}
+
+.mainmenu li:hover .tintuc
+{
+    display: block;
+}
+
+.mainmenu{
+    position: relative;
+    bottom: 0;
+}
+
+.mainmenu li{
+    font-weight: bold;
+}
+.dulichtn{
+    position: relative;
+    /* left: 190px; */
+    background-color:  rgba(159, 150, 150, 0.599);
+    border-radius: 5px;
+}
+
+.dulichqt{
+    position: relative;
+    /* left: 190px; */
+    background-color:  rgba(159, 150, 150, 0.599);
+    border-radius: 5px;
+}
+
+
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30px;
+    
+}
+
+.logo h1{
+    font-size: 50px;
+    padding: 30px 0;
+    color: white;
+}
+ /* .span{
+    color: lightyellow;
+} */
+
+.logo{ 
+    display: flex;
+}
+
+
+.sign{
+    margin-top: 30px;
+    display: flex;
+}
+
+.btn.btn-outline-light,
+.btn.btn-outline-dark{
+    overflow: hidden;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+}
+
+.sign{
+    gap: 10px;
+}
+
+button{
+    width: 130px;
+    height: 50px;
+    gap: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.search{
+    width: max-content;
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: rgba(215, 206, 206, 0.599);
+    backdrop-filter: blur(0px);
+    width: 600px;
+    margin-top: 20px;
+
+}
+
+.inputbar{
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+
+/* .c_s{
+    width: 100%;
+    justify-content: flex-end;
+} */
+
+.slogan h2{
+    color: rgb(124, 153, 212);
+    text-shadow: 4px 4px 0px #443d3d8b, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    font-family: "Lobster", sans-serif;
+    font-size: 120px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+}
+
+/* .carousel-inner{
+    width: 100%;
+
+} */
+.carousel img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin: 0 30px; */
+    margin-left: 80px;
+    width: 90%;
+}
+
+.carousel-indicators{
+    align-items: center;
+}
+
+.carousel-item{
+    height: 480px;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* .c .carouse-caption1{
+    color: black;
+}
+
+.carousel-item .carouse-caption2{
+    color: whitesmoke;
+}
+
+.carousel-item .carouse-caption3{
+    color: whitesmoke;
+} */
+main{
+    /* background: url(../image/bg.jpg);
+    background-size: cover; */
+    margin-top: 200px;
+}
+
+.carousel-inner{
+    width: 100vw;
+}
+
+.body{
+    background: url(../image/bg.jpg);
+    background-size: cover;
+}
+
+.button{
+    position: absolute;
+    margin-top: 240px;
+}
+.tourinfo{
+    display: flex;
+    justify-content: center;
+}
+.tourinfo h4{
+    font-size: 40px;
+    color: black;
+}
+
+.tourinfo .dk{
+    width: 1100px;
+    height: 2px;
+    background-color: black;
+    margin-top: 40px;;
+    margin-bottom: 30px;
+}
+
+.discout{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.hottour{
+    background-color: #e8d3d37d;
+    padding: 30px;
+}
+
+.hottour p{
+    font-size: 25px;
+    color: black;
+}
+
+.dltn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.dlqt{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tours hr{
+    width: 50%;
+    margin: 30px 0;
+    
+}
+
+
+.travelife{
+    margin: 30px;
+    margin-left: 150px;
+}
+.sub1,
+.sub2,
+.sub3,
+.sub4{
+    display: flex;
+    justify-content:   flex-start;
+    font-size: 30px;
+    gap: 10px;
+    margin: 20px;
+}  
+
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.hotdailytours{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5{
+   position: relative;
+   display: flex;
+   overflow: hidden;
+   width: 500px;
+   height: 200px;
+}
+
+.p1:hover .tourn{
+    display: block;
+}
+
+.p2:hover .tourn{
+    display: block;
+}
+
+.p3:hover .tourn{
+    display: block;
+}
+
+.p4:hover .tourn{
+    display: block;
+}
+
+.p5:hover .tourn{
+    display: block;
+}
+
+.hotdailytours .location,
+.hotdailytours .tourn{
+    z-index: 98;
+    font-size: 20px;
+    color: white;
+    /* bottom: 0; */
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.itemonimg{
+    z-index: 99;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    gap: 180px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.hotdailytours img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tourn{
+    display: none;
+    z-index: 999999999;
+}
+
+
+
+.location{
+    display: flex;
+}
+
+footer{
+    background-color: black;
+}
+
+.ourinfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: 20px;
+    color: white;
+    padding-right: 300px;
+}
+
+
+.aboutus a{
+    display: flex;
+}
+
+.category a{
+    display: flex;
+}
+
+.source{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.source h5{
+    color: white;
+}
+
+.card img{
+    height: 210px;
+    object-fit: cover;
+}
+
+.danhgia{
+    margin-top: 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.foot{
+    padding: 10px;
+}
+
+.foot a{
+    text-decoration: none;
+}
+
+.social a{
+    color: white;
+    font-size: 20px;
+}
+
+.social a:hover{
+    color: rgb(31, 31, 142);
+    font-size: 150%; 
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    
+}
